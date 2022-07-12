@@ -1,0 +1,11 @@
+# `addresses.toml` is a configuration file for Matterpost written in the TOML 
+# language. `https://toml.io`
+# It stores Comms channel IDs, and your Token, for easy editing later.
+
+token = "yourtokenhere"
+username = "anything"
+
+[channel]
+[channel.teamname_channelname]
+name = "Channel Name"
+id = "channelidhere"
